@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1 h2 h3 h4 h5 h6 p ul ol {
+    margin: 0;
+    padding: 0;
+}
+
+#secONE {
+    width: 100%;
+    height: 100vh;
+}
+.secONEbackground {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .secONEbackground {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .secONEbackground {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.secONEdivFORani{
+    width: 100px;
+    height: 100px;
+    margin-left: -200;
+    
+    animation:skeleton 2.4s ease-in-out 2 alternate;
+    animation-delay: 1.5s;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+@keyframes skeleton{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateX(400px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
